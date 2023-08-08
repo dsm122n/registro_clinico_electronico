@@ -1,0 +1,45 @@
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "fecha_nacimiento": "01-01-1990",
+        "sexo": "Masculino",
+        "rut": "12345678-9",
+        "motivo_consulta": "Dolor de cabeza"
+    },
+    {
+        "nombre": "Maria",
+        "apellido": "Gonzalez",
+        "fecha_nacimiento": "19-07-1999",
+        "sexo": "Femenino",
+        "rut": "12345678-9",
+        "motivo_consulta": "Dolor abdominal"
+    }
+    ,
+    {
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "fecha_nacimiento": "19-07-1999",
+        "sexo": "Masculino",
+        "rut": "12345678-9",
+        "motivo_consulta": "Vertigo"
+    }
+    ,
+    {
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "fecha_nacimiento": "19-07-1999",
+        "sexo": "Masculino",
+        "rut": "12345678-9",
+        "motivo_consulta": "Vertigo"
+    }
+    ,
+    {
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "fecha_nacimiento": "19-07-1999",
+        "sexo": "Masculino",
+        "rut": "12345678-9",
+        "motivo_consulta": "Vertigo"
+    }
+]
