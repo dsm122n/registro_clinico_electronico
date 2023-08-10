@@ -5,15 +5,19 @@
     </head>
     <title>Lista de espera</title>
     <body>
+        <nav id="mySidebar" class="sidebar">
+            <a class="closebtn" onclick="closeNav()">&times; </a>
+            <a href="main.html">&#x1F3E8; Buscar pacientes</a>
+            <a href="evolucion.html">&#x1F3E8; Evolución</a>
+            <a href="laboratorio.html">&#128202; Laboratorio</a>
+            <a href="lista_espera.html">&#128035; Lista de espera</a>
+        </nav>
         <div class = "grid-container">
-
-            <nav class="grid-item-1">
-                <li><a href="">todos los pacientes</a></li>
-                <li><a href="lista_espera.html">sala de espera</a></li>
-                <li><a href="">pacientes atendidos</a></li>
-                <li><a href="laboratorio.html">laboratorio</a></li>
-                
-            </nav>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Abrir navegación</button>
+                <h2>Collapsed Sidebar</h2>
+              <p>Content...</p>
+            </div>
             <h1 class="grid-item-2">Nombre paciente</h1>
             <ul class = "grid-item-3">
                 <li>Fecha de nacimiento</li>
@@ -67,4 +71,5 @@
         </div>
 
     </body>
+    <script src="script.js"></script>
 </html>
