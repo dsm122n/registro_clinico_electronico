@@ -1,4 +1,6 @@
 const url = 'bd/pacientes.json';
+document.getElementById('clinica').innerHTML = 'Anamnesis \n\n\nEF \n\n\nHipótesis diagnóstica';
+
 function calcularEdad (birthDate, otherDate) {
     fechaNacimiento = new Date(fechaNacimiento);
     fechaActual = new Date(fechaActual);

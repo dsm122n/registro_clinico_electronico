@@ -13,61 +13,66 @@
             <a href="lista_espera.html">&#128035; Lista de espera</a>
         </nav>
         <div class = "grid-container">
-            <div id="main">
-                <button class="openbtn" onclick="openNav()">&#9776; Abrir navegación</button>
-                <h2>Collapsed Sidebar</h2>
-              <p>Content...</p>
+            <div class="grid-openbtn" id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+
             </div>
-            <h1 class="grid-item-2">Nombre paciente</h1>
-            <ul class = "grid-item-3">
+            <h1 class="grid-nombre-paciente">Nombre paciente</h1>
+            <ul class = "grid-datos-paciente">
                 <li>Fecha de nacimiento</li>
                 <li>Edad</li>
                 <li>Sexo</li>
             </ul>
-            <form class="grid-item-4" action="">
-                <label for="Anamnesis" >Anamnesis <br></label>
-                <textarea name="Anamnesis" id="Anamnesis" cols="30" rows="10" placeholder="Ingrese anamnesis"></textarea>
-                <br>
-                <label for="Examen_fisico">Examen físisco <br></label>
-                <textarea name="Examen_fisico" id="Examen_fisico" cols="30" rows="10" placeholder="Ingrese examen físico"></textarea>
-                <br>
-                <label for="hipotesis_diagnostica">Hipotisis diagnóstica<br></label>
-                <textarea name="hipotesis_diagnostica" id=  "hipotesis_diagnostica" cols="30" rows="10" placeholder="Ingrese hipótesis diagnóstica"></textarea>
-                <br>
-                <label for="tratamiento">Tratamiento<br></label>
-                <textarea name="tratamiento" id="tratamiento" cols="30" rows="10" placeholder="Ingrese tratamiento"></textarea>
-                <br>
-                <select name="dorgas" id="dorgas" placeholder="---seleccione una droga---">
-                    <option value="0">---seleccione una droga---</option>
-                    <option value="1">Droga 1</option>
-                    <option value="2">Droga 2</option>
-                    <option value="3">Droga 3</option>
-                </select>
-                <br>
-                <label for="dosis">dosis</label>
-                <input class="dosificacion_droga" type="number" name="dosis" id="dosis" placeholder="##">
-                <br>
-                <label for="frecuencia">frecuencia</label>
-                <input class="dosificacion_droga" type="number" name="frecuencia" id="frecuencia" placeholder="frecuencia">
-                <br>
-                <label for="via_administracion"></label>
-                <select class="dosificacion_droga" name="via_administracion" id="via_administracion">
-                    <option value="0">--</option>
-                    <option value="vo">vo</option>
-                    <option value="iv">iv</option>
-                    <option value="im">im</option>
-                    <option value="sc">sc</option>
-                </select>
-                <br>
-                <button>
-                    Agregar droga
-                </button>
+            <div class="grid-form">
+                <form  action="">
+                    <div class="grid-clinica">
+                        <label for="clinica" >Clínica <br></label>
+                        <textarea name="clinica" id="clinica" width="400px" rows="20">Anamnésis <br> EF</textarea>
+    
+                    </div>
+                    <br>
+                    <div class="grid-post">
+                        <label for="hipotesis_diagnostica">Hipotisis diagnóstica<br></label>
+    
+                        <textarea name="hipotesis_diagnostica" id=  "hipotesis_diagnostica" cols="30" rows="10" placeholder="Ingrese hipótesis diagnóstica"></textarea>
+                        <br>
+                        <label for="tratamiento">Tratamiento<br></label>
+                        <textarea name="tratamiento" id="tratamiento" cols="30" rows="10" placeholder="Ingrese tratamiento"></textarea>
+                        <br>
+                        <select name="dorgas" id="dorgas" placeholder="---seleccione una droga---">
+                            <option value="0">---seleccione una droga---</option>
+                            <option value="1">Droga 1</option>
+                            <option value="2">Droga 2</option>
+                            <option value="3">Droga 3</option>
+                        </select>
+                        <br>
+                        <label for="dosis">dosis</label>
+                        <input class="dosificacion_droga" type="number" name="dosis" id="dosis" placeholder="##">
+                        <br>
+                        <label for="frecuencia">frecuencia</label>
+                        <input class="dosificacion_droga" type="number" name="frecuencia" id="frecuencia" placeholder="frecuencia">
+                        <br>
+                        <label for="via_administracion"></label>
+                        <select class="dosificacion_droga" name="via_administracion" id="via_administracion">
+                            <option value="0">--</option>
+                            <option value="vo">vo</option>
+                            <option value="iv">iv</option>
+                            <option value="im">im</option>
+                            <option value="sc">sc</option>
+                        </select>
+                        <br>
+                        <button>
+                            Agregar droga
+                        </button>
+        
+                        <br>
+                        <label for="evolucion" placeholder="Ingrese evolución">Evolución<br></label>
+                        <textarea name="evolucion" id="evolucion" cols="30" rows="10"></textarea>
+                    </div>
+    
+                </form>
 
-                <br>
-                <label for="evolucion" placeholder="Ingrese evolución">Evolución<br></label>
-                <textarea name="evolucion" id="evolucion" cols="30" rows="10"></textarea>
-
-            </form>
+            </div>
         </div>
 
     </body>
